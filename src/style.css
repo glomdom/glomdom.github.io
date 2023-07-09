@@ -49,3 +49,7 @@ a:hover {
 a:active {
     color: lightslategray;
 }
+
+a {
+    font-size: 50px;
+}
