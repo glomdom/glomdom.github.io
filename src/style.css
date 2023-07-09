@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    display: flexbox;
+    color: white;
+    text-align: center;
+    font-family: "Jetbrains Mono";
+    font-size: 30px;
+}
