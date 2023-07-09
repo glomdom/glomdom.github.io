@@ -1,21 +1,51 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 body {
+    font-family: "Jetbrains Mono";
     background-color: black;
 }
 
 h1 {
     color: white;
     text-align: center;
-    font-family: "Jetbrains Mono";
-    font-size: 30px;
+    font-size: 35px;
 }
 
-.main {
-    height: auto;
-    display: flex;
-    justify-content: center;
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    color: lightgray;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -1rem;
+}
+
+.project-name {
+    font-size: 18px;
+}
+
+.content {
+    margin-top: 5rem;
+}
+
+.top {
+    margin-bottom: 1.5rem;
+}
+
+a:link {
+    color: lightgray;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: lightslategray;
 }
