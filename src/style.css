@@ -1,5 +1,6 @@
-html {
+html, body {
     height: 100%;
+    margin: 0;
 }
 
 body {
@@ -7,9 +8,14 @@ body {
 }
 
 h1 {
-    display: flexbox;
     color: white;
     text-align: center;
     font-family: "Jetbrains Mono";
     font-size: 30px;
+}
+
+.main {
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
